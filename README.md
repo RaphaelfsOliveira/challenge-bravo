@@ -1,6 +1,6 @@
-## Hurb Node Conversion API
-É só executar os comandos abaixo
+# <img src="https://avatars1.githubusercontent.com/u/7063040?v=4&s=200.jpg" alt="HU" width="24" /> Hurb Node Conversion API
 
+Para instalar e rodar o projeto é só executar os comandos abaixo. =]
 
 
 #### git clone $seu-fork e cd $seu-fork:
@@ -24,7 +24,7 @@
 Depois de subir o projeto use as urls definidas abaixo.
 
 
-
+## Endpoints API
 
 ##### Listagem de moedas
 
