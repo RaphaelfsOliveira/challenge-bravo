@@ -1,0 +1,26 @@
+version: "2"
+services:
+  node:
+    image: "node:latest"
+    user: "node"
+    working_dir: /usr/src/app
+    container_name: Hurb_Node_Mark_III
+    restart: always
+    environment:
+      - NODE_ENV=production
+    volumes:
+      - ./:/usr/src/app
+    ports:
+      - "8000:8000"
+    command: "npm run pm2-runtime"
+    links:
+      - mongo
+  mongo:
+    container_name: Hurb_Mongo_Mark_III
+    image: mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - ./data/mongo:/data/db
+    expose:
+      - "27017"
