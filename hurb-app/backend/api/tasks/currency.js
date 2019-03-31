@@ -84,7 +84,7 @@ const compareCurrency = (curryRes) => {
       coin[0].timestamp, curryRes[codeId].timestamp)) {
 
         Currency.updateOne({code: coin[0].code}, {
-          value: curryRes[codeId].value,
+          value: curryRes[codeId].bid,
           timestamp: curryRes[codeId].timestamp
         }, (err, res) => {
           console.log(`${mongoTask} Moeda atualizada: ${coin[0].name}`);
