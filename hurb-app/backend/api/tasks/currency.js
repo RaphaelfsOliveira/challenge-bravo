@@ -87,7 +87,7 @@ const compareCurrency = (curryRes) => {
           value: curryRes[codeId].value,
           timestamp: curryRes[codeId].timestamp
         }, (err, res) => {
-          console.log(`${mongoTask} Moeda atualizada: ${coin[0].name}}`);
+          console.log(`${mongoTask} Moeda atualizada: ${coin[0].name}`);
         });
 
       }
