@@ -3,17 +3,12 @@
 
 
 
-#### git clone $seu-fork:
-> git clone https://github.com/RaphaelfsOliveira/challenge-bravo.git && cd {{folder}}
+#### git clone $seu-fork e cd $seu-fork:
+> git clone https://github.com/RaphaelfsOliveira/challenge-bravo.git && cd challenge-bravo/hurb-app/backend/
 
 
 
-#### cd $seu-fork:
-> cd %folder%
-
-
-
-#### cd $seu-fork:
+#### comando para instalar dependências:
 > sudo npm i
 
 
