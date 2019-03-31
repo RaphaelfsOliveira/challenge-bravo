@@ -3,25 +3,18 @@
 Para instalar e rodar o projeto é só executar os comandos abaixo. =]
 
 
-#### git clone $seu-fork e cd $seu-fork:
+#### Clonar repositório e acessar $seu-fork e cd $seu-fork:
 > git clone https://github.com/RaphaelfsOliveira/challenge-bravo.git && cd challenge-bravo/hurb-app/backend/
 
 
-
-#### comando para instalar dependências:
+#### Comando para instalar dependências:
 > sudo npm i
 
 
-
-#### comando para instalar dependências:
-> sudo docker build --tag=Hurb_proj .
-
-
-
-#### comando para executar a aplicação:
+#### Comando para executar a aplicação:
 > sudo docker-compose up
 
-Depois de subir o projeto use as urls definidas abaixo.
+- Depois de subir o projeto use as urls definidas abaixo.
 
 
 ## Endpoints API
