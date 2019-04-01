@@ -19,14 +19,14 @@ Para instalar e rodar o projeto é só executar os comandos abaixo. =]
 
 ## Endpoints API
 
-##### Listagem de moedas
+#### Listagem de moedas
 
 Exemplo abaixo:
 
 - http://localhost:8000/conversion/
 
 
-##### Conversão de Moedas
+#### Conversão de Moedas
 
 Parâmentros obrigatórios: `from=`, `to=`, `amount=`.
 
@@ -47,5 +47,5 @@ Para rodar os testes basicos que fiz da API vá ate a pasta `backend` de lá.
 - Para testes de check-up:
 > npm run test
 
-> `OBS: finalizar o servidor com Ctrl+C após este teste de check-up`
-> `utilizei o nodemon para fazer esse script rodar.`
+OBS: finalizar o servidor com *Ctrl+C* após este teste de check-up
+utilizei o nodemon para fazer esse script rodar.
