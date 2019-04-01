@@ -25,7 +25,7 @@ exports.coin_conversion = (req, res) => {
       const convertVal = curryConversion(curryParams);
 
       const resp = {
-        convertedValue: parseFloat(convertVal),
+        convertedValue: convertVal,
         params: {
           from: req.params.from,
           to: req.params.to,
