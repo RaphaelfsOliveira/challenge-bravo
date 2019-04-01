@@ -1,6 +1,15 @@
 # <img src="https://avatars1.githubusercontent.com/u/7063040?v=4&s=200.jpg" alt="HU" width="24" /> Hurb API de Conversão de Moedas
 
-Para instalar e rodar o projeto é só executar os comandos abaixo. =]
+Levando em consideração que voce já tem instalado na maquina as dependências abaixo:
+
+- Git
+- Docker
+- Docker-compose
+- Node.js
+- npm
+
+
+Para configurar e rodar o projeto é só executar os comandos abaixo. =]
 
 
 #### Clonar repositório e acessar $seu-fork e cd $seu-fork:
