@@ -10,7 +10,8 @@
     "pm2-runtime": "pm2-runtime loader.js --watch --name hurb-backend",
     "stop": "pm2 stop all",
     "kill": "pm2 kill",
-    "monit": "pm2 monit"
+    "monit": "pm2 monit",
+    "test": "nodemon tests/requests-api/test-request.js"
   },
   "keywords": [
     "API"
