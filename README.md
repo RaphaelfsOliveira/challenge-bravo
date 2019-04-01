@@ -35,3 +35,17 @@ Formatação do parâmentros: `from={ moeda }&to={ moeda }&amount={ valor }`.
 Exemplo abaixo:
 
 - http://localhost:8000/conversion/from=BRL&to=ARS&amount=3000
+
+
+## TESTES
+
+Para rodar os testes basicos que fiz da API vá ate a pasta `backend` de lá.
+
+- Para testes de performance:
+> artillery run tests/performance/test-performance.yml
+
+- Para testes de check-up:
+> npm run test
+
+> `OBS: finalizar o servidor com Ctrl+C após este teste de check-up`
+> `utilizei o nodemon para fazer esse script rodar.`
