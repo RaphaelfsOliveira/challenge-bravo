@@ -32,7 +32,7 @@ Para configurar e rodar o projeto é só executar os comandos abaixo. =]
 
 Exemplo abaixo:
 
-- http://localhost:8000/conversion/
+- http://localhost:8000/api/conversion/
 
 
 #### Conversão de Moedas
@@ -43,7 +43,7 @@ Formatação do parâmentros: `from={ moeda }&to={ moeda }&amount={ valor }`.
 
 Exemplo abaixo:
 
-- http://localhost:8000/conversion/from=BRL&to=ARS&amount=3000
+- http://localhost:8000/api/conversion/from=BRL&to=ARS&amount=3000
 
 
 ## TESTES
