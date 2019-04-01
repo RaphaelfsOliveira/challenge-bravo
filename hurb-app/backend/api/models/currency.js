@@ -36,7 +36,7 @@ const currencyFormat = (number) => {
     for (const digit of decimal) {
       newDecimal += digit;
       if (digit !== '0' || count !== 0) {
-        if (count === 2) break;
+        if (count === 1) break;
         count++;
       }
     }
