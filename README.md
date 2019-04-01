@@ -1,6 +1,6 @@
 # <img src="https://avatars1.githubusercontent.com/u/7063040?v=4&s=200.jpg" alt="HU" width="24" /> Hurb API de Conversão de Moedas
 
-Levando em consideração que voce já tem instalado na maquina as dependências abaixo:
+Levando em consideração que voce já tem instalado na maquina os softwares abaixo:
 
 - Git
 - Docker
